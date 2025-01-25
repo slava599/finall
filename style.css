@@ -1,0 +1,43 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ font-family: "Raleway", sans-serif;
+}
+h1, h2, h3, p, ul {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    margin: 0px auto;
+    width: 1620px;
+}
+/*header*/
+.header {
+    padding: 32px 0px;
+    background-color: 121212;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 100;
+}
+.header-link {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.header-link:hover {
+    color: #B2FFA6;
+}
+/*sektion 1*/
+.hero-containe {
+display: flex;
+}
